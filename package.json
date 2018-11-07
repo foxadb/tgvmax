@@ -1,0 +1,28 @@
+{
+  "name": "tgvmax",
+  "version": "0.1.0",
+  "description": "TGVmax",
+  "main": "dist",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src",
+    "build": "babel src --out-dir dist --source-maps",
+    "prestart": "npm run -s build",
+    "start": "node dist"
+  },
+  "repository": "https://github.com/foxadb/tgvmax",
+  "author": "Samy Amraoui <sametzy@gmail.com>",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "express": "^4.13.3",
+    "morgan": "^1.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^1.9.2"
+  }
+}
