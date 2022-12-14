@@ -15,7 +15,7 @@
     "axios": "^0.21.1",
     "body-parser": "^1.13.3",
     "compression": "^1.5.2",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "morgan": "^1.8.0"
   },
   "devDependencies": {
